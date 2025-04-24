@@ -1,0 +1,45 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribution / packaging
+*.egg
+*.egg-info
+dist/
+build/
+*.tar.gz
+*.whl
+pip-wheel-metadata/
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Pygame-specific
+pygame.log
+
+# Operating System files
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# IDE/editor specific files
+.vscode/          # Visual Studio Code settings
+.idea/            # JetBrains IDE (PyCharm, IntelliJ)
+*.swp             # Vim temporary files
+
+# Python coverage reports
+.coverage
+coverage.xml
+
+# Logs
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Pylint
+.pylintrc
